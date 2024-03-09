@@ -1,0 +1,94 @@
+.ma{
+    background-image: url(pattern-background-desktop.svg);
+}
+.pic{
+    width: 250px;
+    img{
+        width: 390px;
+        height: 240px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    transform: translate3d(250%,20%,0);
+}
+.who{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    transform: translate3d(160%,6.9%,0);
+    width: 390px;
+    height:340px;
+    background-color: white;
+    h3{
+        padding-top: 29px;
+        font-size: 162%;
+        text-align: center;
+    }
+    p{
+        display: inline;
+        display: flex;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-align:center;
+        margin-left: 10px;
+    }
+}
+.one{
+    margin-left: 20px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 2rem;
+    img{
+            margin-right: 50px;
+        float: inline-start;
+        float: left;
+    }
+    span  {
+        color: brown;
+    }
+    h5{
+        font-size: medium;
+        display: inline;
+        word-spacing: .2rem;
+        margin-inline-start: -35px;
+    }
+    h6{
+        margin-inline-start: -35.9px;
+        font-size: medium;
+
+        display: inline;
+        color: gray;
+    }
+    a{
+        float: right;
+        transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.two{
+    margin-left: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    a{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    button{
+        box-sizing:content-box;
+        background-color: blue;
+        color: white;
+    height: 30px;
+    border-radius: .67rem;
+    width: 250px;
+    margin-left: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    border-radius: 1rem;
+.ee:hover{
+    background-color:violet;
+    
+}
+    
+}
